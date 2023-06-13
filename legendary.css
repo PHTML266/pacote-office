@@ -1,0 +1,57 @@
+body{
+    background: url(fundos/fundo_office.jpg);
+    color: azure;
+    text-align: center;
+    font-size: large;
+}
+
+h1{
+    color: azure;
+    font-size: xx-large;
+    text-shadow: 3px 2px 3px rgb(224, 88, 72);
+    border: 3px solid rgb(224, 88, 72);
+    border-radius: 5px;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+.word:hover {
+    background-color: #1558c6;
+    color: white;
+  }
+
+.word{
+    border-radius: 10px;
+    color: azure;
+    transition-duration: 0.4s;
+    width: 80px;
+    height: 50px;
+}
+
+.excel:hover{
+    background-color: #036030;
+    color: white;
+}
+
+.excel{
+    border: 3px solid #ededed;
+    border-radius: 4px;
+    color: azure;
+    transition-duration: 0.4s;
+    padding: 20px;
+}
+
+.pp:hover{
+    background-color: #c06102;
+    color: white;
+}
+
+.pp{
+    border: 3px solid #ededed;
+    border-radius: 4px;
+    color: azure;
+    transition-duration: 0.4s;
+    padding: 20px;
+}
